@@ -1,0 +1,15 @@
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: $colorTextPrimary;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    &:first-of-type(div) {
+        display: flex;
+    }
+}
