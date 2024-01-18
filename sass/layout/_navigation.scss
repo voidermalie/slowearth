@@ -1,0 +1,17 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    gap: 48px;
+}
+
+nav a {
+    color: $colorTextSecondary;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+}

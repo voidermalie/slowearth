@@ -1,5 +1,6 @@
 @import './base/normalize', './base/typography';
 @import './utils/_variables';
+@import './layout/header', './layout/navigation';
 @import './layout/_section';
 
 
@@ -8,9 +9,5 @@ html {
 
     body {
         background-color: $colorBackgroundPrimary;
-        
-        h1 {
-            color: pink;
-        }
     }
 }
