@@ -1,12 +1,14 @@
 @import './base/normalize', './base/typography';
 @import './utils/_variables';
+@import './layout/_section';
 
 
 html {
     scroll-behavior: smooth;
 
     body {
-        background-color: colorBackgroundPrimary;
+        background-color: $colorBackgroundPrimary;
+        
         h1 {
             color: pink;
         }
