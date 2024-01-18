@@ -1,0 +1,14 @@
+@import './base/normalize', './base/typography';
+@import './utils/_variables';
+
+
+html {
+    scroll-behavior: smooth;
+
+    body {
+        background-color: colorBackgroundPrimary;
+        h1 {
+            color: pink;
+        }
+    }
+}
