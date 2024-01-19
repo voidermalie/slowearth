@@ -1,0 +1,22 @@
+@import '../utils/variables';
+
+html {
+  body {
+    .footer {
+      background-color: $colorTextSecondary;
+      color :white;
+      font-size: 1rem;
+      padding: 3rem;
+      display: flex;
+      justify-content: space-between;        
+      text-align: center;
+      align-items: center;
+      ul{
+        list-style: none;
+        li{
+        padding: 0.3rem;
+        }
+      }
+    }
+  }
+}
