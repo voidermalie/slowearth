@@ -5,8 +5,8 @@ html {
     .footer {
       background-color: $colorTextSecondary;
       color :white;
-      font-size: 1rem;
-      padding: 3rem;
+      font-size: 0.8rem;
+      padding: 2rem;
       display: flex;
       justify-content: space-between;        
       text-align: center;
@@ -16,6 +16,9 @@ html {
         li{
         padding: 0.3rem;
         }
+      }
+      i{
+        font-size: xx-large;
       }
     }
   }
