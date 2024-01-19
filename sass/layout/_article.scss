@@ -1,0 +1,29 @@
+article {
+
+    width: 100%;
+    margin: 10px;
+    border: 4px solid brown;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    div.article_content {
+
+        padding: 10px;
+
+        h4 {
+            margin: 0 auto;
+            color: $colorTextPrimary;
+        }
+    
+        p {
+            color: $colorTextSecondary;
+        }
+    }
+}
