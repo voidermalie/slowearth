@@ -249,12 +249,6 @@ pre {
     word-wrap: break-word;
 }
 
-// Set consistent quote types.
-
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
 // 1. Addresses CSS quotes not supported in IE6/7
 // 2. Addresses quote property not supported in S4
 
