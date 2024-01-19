@@ -18,9 +18,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
-      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- Inclusion de scripts -->
   </head>
@@ -33,50 +34,76 @@
           <li>
             <div>
               <a href="#">Connexion</a>
-              <i class="fas fa-user"></i>
+              <i class="fas fa-circle-user user-icon"></i>
             </div>
           </li>
         </ul>
       </nav>
     </header>
-    
+
     <main>
+      <section class="hero">
+        <h1>Explorez le monde de manière responsable. Des voyages qui préservent. Pour vous. Pour la planète. Pour l'avenir.</h1>
+        <h2>Des milliers de pépites pour des voyages écoresponsables en toute l’Europe.</h2>
+        <div class="searchbox">
+            <span class="mobile-icon"><i class="fas fa-location-dot"></i></span>
+            <form class="searchform" method="post" action="traitement.php"></form>
+            <p>
+                <label for="destination">Destination</label>
+                <input id="destination" type="text" name="" maxlength="20" placeholder="Où voulez-vous aller ?">
+            </p>
+        </div>
+      </section>
       <section>
         <h3>Nos dernières destinations</h3>
 
         <article>
-          <img src="assets/images/islande_borgarfjordur.webp" alt="Logement_islande_img">
+          <img
+            src="assets/images/islande_borgarfjordur.webp"
+            alt="Logement_islande_img"
+          />
           <i class="fas fa-heart"></i>
           <div class="article_content">
             <h4>Borgarfjordur, Island</h4>
-            <p>Curabitur vitae nunc sed velit dignissim sodales. Sed vulputate odio ut enim blandit volutpat</p>
+            <p>
+              Curabitur vitae nunc sed velit dignissim sodales. Sed vulputate
+              odio ut enim blandit volutpat
+            </p>
             <p>Nombre de personnes : 2</p>
             <p>Prix : $100/nuit</p>
           </div>
         </article>
-      
+
         <article>
-          <img src="assets/images/oia_grece.webp" alt="Logement_grece_img">
+          <img src="assets/images/oia_grece.webp" alt="Logement_grece_img" />
           <i class="fas fa-heart"></i>
           <div class="article_content">
             <h4>Oia, Grèce</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
             <p>Nombre de personnes : 4</p>
             <p>Prix : $200/nuit</p>
           </div>
         </article>
-      
+
         <article>
-          <img src="assets/images/ecosse_glencoe.webp" alt="Logement_ecosse_img">
+          <img
+            src="assets/images/ecosse_glencoe.webp"
+            alt="Logement_ecosse_img"
+          />
           <i class="fas fa-heart"></i>
           <div class="article_content">
             <h4>Glencoe, Ecosse</h4>
-            <p>Description du chalet rustique. Un refuge chaleureux pour une escapade tranquille.</p>
+            <p>
+              Description du chalet rustique. Un refuge chaleureux pour une
+              escapade tranquille.
+            </p>
             <p>Nombre de personnes : 6</p>
             <p>Prix : $150/nuit</p>
           </div>
         </article>
-
       </section>
     </main>
   </body>
