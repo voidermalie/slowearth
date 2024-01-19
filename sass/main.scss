@@ -1,9 +1,7 @@
 @import './base/normalize', './base/typography';
 @import './utils/_variables';
-@import './layout/header', './layout/navigation', './layout/_section';
+@import './layout/header', './layout/navigation', './layout/_section', './layout/footer';
 @import './components/searchbox.scss';
-
-@import './layout/footer';
 
 html {
     scroll-behavior: smooth;
