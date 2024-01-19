@@ -8,23 +8,32 @@ nav ul {
 nav a, .user-icon {
     color: $colorTextSecondary;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    &:hover {
+        color: $colorTextSecondary;
+        border-bottom: 2px solid $colorTextSecondary;
+    }
 }
 
 nav {
     display: flex;
+    flex: 1 1 50%;
 }
 
 .user-icon {
     text-align: center;
     padding-left: 8px;
+    display: none;
 }
 
-/* desktop
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 768px) {
     nav a {
         font-size: 1.5rem;
     }
+    .user-icon {
+        display: inline;
+    }
 }
-*/
+
