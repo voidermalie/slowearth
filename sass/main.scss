@@ -1,7 +1,7 @@
 @import './base/normalize', './base/typography';
 @import './utils/_variables';
-@import './layout/header', './layout/navigation';
-@import './layout/_section';
+@import './layout/header', './layout/navigation', './layout/_section';
+@import './components/searchbox.scss';
 
 @import './layout/footer';
 

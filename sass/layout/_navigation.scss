@@ -5,13 +5,26 @@ nav ul {
     gap: 48px;
 }
 
-nav a {
+nav a, .user-icon {
     color: $colorTextSecondary;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 nav {
     display: flex;
 }
+
+.user-icon {
+    text-align: center;
+    padding-left: 8px;
+}
+
+/* desktop
+@media screen and (min-width: 600px) {
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+*/
